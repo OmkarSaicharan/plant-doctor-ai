@@ -65,7 +65,7 @@ const UploadCard = () => {
       toast.error("Please select an image first");
       return;
     }
-    toast.success("Analysis started! This feature requires backend integration.");
+    toast.success("Go To Above Detection Section Analysis started! This feature requires backend integration.");
   };
 
   return (
