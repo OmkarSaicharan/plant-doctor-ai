@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="256" height="256" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+  <defs>
+    <!-- Gradient for the unicorn body -->
+    <linearGradient id="UnicornGradient1" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6BCB" />
+      <stop offset="100%" stop-color="#9D4EDD" />
+    </linearGradient>
+    
+    <!-- Gradient for the unicorn horn -->
+    <linearGradient id="UnicornGradient2" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD166" />
+      <stop offset="50%" stop-color="#FFEEA9" />
+      <stop offset="100%" stop-color="#FFB347" />
+    </linearGradient>
+    
+    <!-- Sparkle effect -->
+    <radialGradient id="SparkleGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Star shape for sparkles -->
+    <path id="star" d="M12,0 L15,8 L24,8 L17,12 L20,20 L12,15 L4,20 L7,12 L0,8 L9,8 Z" />
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="120" fill="#F8F9FF" />
+  
+  <!-- Unicorn head (V-shaped like Vue logo) -->
+  <path fill="url(#UnicornGradient1)" d="M128,40 L200,180 L56,180 Z" />
+  
+  <!-- Unicorn horn (centered) -->
+  <path fill="url(#UnicornGradient2)" d="M128,40 L140,20 L116,20 Z" />
+  
+  <!-- Ear -->
+  <path fill="#FF6BCB" d="M110,60 L100,30 L120,50 Z" />
+  <path fill="#9D4EDD" d="M146,60 L156,30 L136,50 Z" />
+  
+  <!-- Eye -->
+  <circle cx="115" cy="95" r="8" fill="#FFFFFF" />
+  <circle cx="115" cy="95" r="4" fill="#2D3047" />
+  <circle cx="141" cy="95" r="8" fill="#FFFFFF" />
+  <circle cx="141" cy="95" r="4" fill="#2D3047" />
+  
+  <!-- Mane (flowing lines) -->
+  <path d="M80,100 Q70,85 75,70" stroke="#9D4EDD" stroke-width="4" fill="none" />
+  <path d="M85,110 Q75,95 80,80" stroke="#FF6BCB" stroke-width="4" fill="none" />
+  <path d="M90,120 Q80,105 85,90" stroke="#9D4EDD" stroke-width="4" fill="none" />
+  
+  <!-- Right side mane -->
+  <path d="M176,100 Q186,85 181,70" stroke="#9D4EDD" stroke-width="4" fill="none" />
+  <path d="M171,110 Q181,95 176,80" stroke="#FF6BCB" stroke-width="4" fill="none" />
+  <path d="M166,120 Q176,105 171,90" stroke="#9D4EDD" stroke-width="4" fill="none" />
+  
+  <!-- Sparkle effects -->
+  <use xlink:href="#star" x="80" y="40" fill="url(#SparkleGradient)" transform="scale(0.7)" />
+  <use xlink:href="#star" x="170" y="45" fill="url(#SparkleGradient)" transform="scale(0.5)" />
+  <use xlink:href="#star" x="128" y="25" fill="url(#SparkleGradient)" transform="scale(0.6)" />
+  
+  <!-- Decorative circles (like Vue logo elements) -->
+  <circle cx="80" cy="160" r="16" fill="#9D4EDD" opacity="0.7" />
+  <circle cx="128" cy="160" r="20" fill="#FF6BCB" opacity="0.7" />
+  <circle cx="176" cy="160" r="16" fill="#9D4EDD" opacity="0.7" />
+</svg>
