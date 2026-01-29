@@ -1,4 +1,4 @@
-# https://plantdiseasefertilizerrec.netlify.app/
+# https://plant-doctor-ai-eight.vercel.app/
 # Welcome to our React project
 
 ## Project info
